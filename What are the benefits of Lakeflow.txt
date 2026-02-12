@@ -1,0 +1,12 @@
+What are the benefits of Lakeflow Spark Declarative Pipelines
+
+1. Declarative Processing:
+	Less code(Focus on what as opposed to How)
+	Auto CDC API simplifies CDC Processing
+	No need for manual code to handle out of order events
+2. Automatic Orchestartion
+	Automatic orchestration to ensure correct order of execution
+	Efficient retry of Transient Failure
+3. Incremental Processing
+	Incremental processing engine for materialized views
+	Reduces Inefficient reprocessing for updated/new records
